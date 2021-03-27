@@ -155,4 +155,11 @@ public class MobilePhone {
        * 4. Jane -> 23571113
        */
 
+      public static void printContacts() {
+        System.out.println("Contact List: " + "\n");
+        for(int i = 0; i < myContacts.size(); i++) {
+          System.out.println((i + 1) + ". " + myContacts.getItem[i]);
+        }
+      }
+
 }
